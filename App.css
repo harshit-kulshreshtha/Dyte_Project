@@ -1,0 +1,32 @@
+* {
+	  margin: 0px;
+	  padding: 0px;
+	  box-sizing: border-box;
+	}
+	
+	.code-area {
+	  display: flex;
+	  flex-direction:row;
+	  
+	  width: 100%;
+	  border-right:1px solid #555;
+	  
+	}
+	.code-area .editor {
+	  position:absolute;
+	  outline: none;
+	  width: 33.33%;
+	  font-size: 18px;
+	  margin: 100px;
+	  background: #939799;
+	}
+	.output {
+	  width: 100%;
+	  height:40vh;
+	  border:1px solid #555;
+	}
+	.output iframe {
+	  width: 100%;
+	  height: 100%;
+	  border: none;
+	}
